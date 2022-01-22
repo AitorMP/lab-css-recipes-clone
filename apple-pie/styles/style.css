@@ -1,8 +1,8 @@
-body,
-html {
+body, html {
   font-family: 'Inter', sans-serif;
-  margin: 0;
+  margin: 0 auto;
   height: 100%;
+  width: auto;
 }
 
 /* Hero Image */
@@ -23,4 +23,21 @@ html {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 100px;
+}
+
+.intro {
+  text-align: center;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  padding: 10px;
+  margin: 10px;
+  text-align: justify, center;
+  
+  
 }
